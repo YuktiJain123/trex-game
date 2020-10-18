@@ -77,7 +77,7 @@ function draw() {
     //change the trex animation
     trex.changeAnimation("running", trex_running);
   camera.position.x=trex.x;
-    
+  trex.velocityX = 8
     if(keyDown("space") && trex.y >= 159) {
       trex.velocityY = -12;
     }
